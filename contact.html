@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .contact-form {
+            max-width: 400px;
+            margin: auto;
+        }
+
+        body {
+            background: orange;
+            padding-top: 56px; /* Adjusted to make room for the fixed navbar */
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class=" navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="app.html">Return to Home</a>
+    </nav>
+
+    <section id="contact" class="container mt-5">
+        <h2 class="text-center">Contact</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" class="form-control" id="subject" placeholder="Enter the subject">
+            </div>
+            <div class="form-group">
+                <label for="projectDetails">Project Details:</label>
+                <textarea class="form-control" id="projectDetails" rows="4" placeholder="Enter project details"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
